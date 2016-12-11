@@ -1,0 +1,21 @@
+Resizes the container so that it contains n elements.
+
+If n is smaller than the current container size, the content is reduced to its first n elements, removing those beyond (and destroying them).
+
+If n is greater than the current container size, the content is expanded by inserting at the end as many elements as needed to reach a size of n. If val is specified, the new elements are initialized as copies of val, otherwise, they are value-initialized.
+
+If n is also greater than the current container capacity, an automatic reallocation of the allocated storage space takes place.
+
+Notice that this function changes the actual content of the container by inserting or erasing elements from it.
+n
+New container size, expressed in number of elements.
+Member type size_type is an unsigned integral type.
+val
+Object whose content is copied to the added elements in case that n is greater than the current container size.
+If not specified, the default constructor is used instead.
+Member type value_type is the type of the elements in the container, defined in vector as an alias of the first template parameter (T).
+
+Return Value
+none
+
+If a reallocation happens, the storage is allocated using the container's allocator, which may throw exceptions on failure (for the default allocator, bad_alloc is thrown if the allocation request does not succeed).

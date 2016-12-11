@@ -1,0 +1,172 @@
+min=0 max=100 size=20 seed=123456789
+
+Interval Heap built:
+
+19,78
+27,65
+30,55
+34,57
+29,62
+38,46
+36,37
+44,54
+52,55
+37,60
+
+After deleting min element 19:
+
+27,78
+29,65
+30,55
+34,57
+37,62
+38,46
+36,37
+44,54
+52,55
+60
+
+After deleting max element 78:
+
+27,65
+29,62
+30,55
+34,57
+37,60
+38,46
+36,37
+44,54
+52,55
+
+After deleting min element 27:
+
+29,65
+34,62
+30,55
+44,57
+37,60
+38,46
+36,37
+54,55
+52
+
+After deleting max element 65:
+
+29,62
+34,60
+30,55
+44,57
+37,52
+38,46
+36,37
+54,55
+
+After deleting min element 29:
+
+30,62
+34,60
+36,55
+44,57
+37,52
+38,46
+37,55
+54
+
+After deleting max element 62:
+
+30,60
+34,57
+36,55
+44,54
+37,52
+38,46
+37,55
+
+After deleting min element 30:
+
+34,60
+37,57
+36,55
+44,54
+52,55
+38,46
+37
+
+After deleting max element 60:
+
+34,57
+37,55
+36,55
+44,54
+37,52
+38,46
+
+After deleting min element 34:
+
+36,57
+37,55
+38,55
+44,54
+37,52
+46
+
+After deleting max element 57:
+
+36,55
+37,54
+38,55
+44,46
+37,52
+
+After deleting min element 36:
+
+37,55
+37,54
+38,55
+44,46
+52
+
+After deleting max element 55:
+
+37,55
+37,54
+38,52
+44,46
+
+After deleting min element 37:
+
+37,55
+44,54
+38,52
+46
+
+After deleting max element 55:
+
+37,54
+44,46
+38,52
+
+After deleting min element 37:
+
+38,54
+44,46
+52
+
+After deleting max element 54:
+
+38,52
+44,46
+
+After deleting min element 38:
+
+44,52
+46
+
+After deleting max element 52:
+
+44,46
+
+After deleting min element 44:
+
+46
+

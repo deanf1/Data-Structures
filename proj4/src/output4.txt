@@ -1,0 +1,79 @@
+min=200 max=1000 size =12 seed =1245789
+
+Interval Heap built:
+
+301,916
+343,898
+365,776
+366,398
+396,754
+446,671
+
+After deleting min element 301 :
+
+343,916
+366,898
+365,776
+398,671
+396,754
+446
+
+After deleting max element 916 :
+
+343,898
+366,754
+365,776
+398,671
+396,446
+
+After deleting min element 343 :
+
+365,898
+366,754
+446,776
+398,671
+396
+
+After deleting max element 898 :
+
+365,776
+366,754
+396,446
+398,671
+
+After deleting min element 365 :
+
+366,776
+398,754
+396,446
+671
+
+After deleting max element 776 :
+
+366,754
+398,671
+396,446
+
+After deleting min element 366 :
+
+396,754
+398,671
+446
+
+After deleting max element 754 :
+
+396,671
+398,446
+
+After deleting min element 396 :
+
+398,671
+446
+
+After deleting max element 671 :
+
+398,446
+
+After deleting min element 398 :
+
+446

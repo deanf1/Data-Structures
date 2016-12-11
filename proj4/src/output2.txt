@@ -1,0 +1,45 @@
+min=0 max=100 size=8 seed=123456789
+
+Interval Heap built:
+
+30,78
+37,60
+36,46
+44,55
+
+After deleting min element 30 :
+
+36,78
+37,60
+46,55
+44
+
+After deleting max element 78 :
+
+36,60
+37,44
+46,55
+
+After deleting min element 36 :
+
+37,60
+44,55
+46
+
+After deleting max element 60 :
+
+37,55
+44,46
+
+After deleting min element 37 :
+
+44,55
+46
+
+After deleting max element 55 :
+
+44,46
+
+After deleting min element 44 :
+
+46
